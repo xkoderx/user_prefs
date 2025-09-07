@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:user_prefs/screens/screens.dart';
 
 class Drawwer extends StatelessWidget {
+  const Drawwer({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Drawer(
@@ -36,20 +38,18 @@ class Drawwer extends StatelessWidget {
 }
 
 class _DrawwerHeader extends StatelessWidget {
-  const _DrawwerHeader({
-    Key? key,
-  }) : super(key: key);
+  const _DrawwerHeader();
 
   @override
   Widget build(BuildContext context) {
     return DrawerHeader(
-      child: Container(),
       decoration: const BoxDecoration(
         image: DecorationImage(
           image: AssetImage('assets/menu-img.jpg'),
           fit: BoxFit.cover,
         ),
       ),
+      child: Container(),
     );
   }
 }

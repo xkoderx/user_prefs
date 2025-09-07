@@ -5,6 +5,8 @@ import 'package:user_prefs/widgets/drawer.dart';
 class Home extends StatelessWidget {
   static const String routerName = 'Home';
 
+  const Home({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

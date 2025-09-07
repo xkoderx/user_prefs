@@ -7,6 +7,8 @@ import 'package:user_prefs/widgets/drawer.dart';
 class Settings extends StatefulWidget {
   static const String routerName = 'Settings';
 
+  const Settings({super.key});
+
   @override
   State<Settings> createState() => _SettingsState();
 }
