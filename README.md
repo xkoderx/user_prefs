@@ -1,16 +1,24 @@
-# user_prefs
+# Preferencias de Usuario
 
-A new Flutter project.
+Un proyecto de flutter que guarda algunos campos de entrada de formulario directamente en el dispositivo para que cuando vuelva a arrancar la aplicacion los datos se mantengan.
+Tambien hace cambio de tema y se mantiene el tema aun reiniciando la aplicacion.
 
-## Getting Started
+**Realizado en el curso de [Fernando Herrera](https://fernando-herrera.com/) de en [Udemy](https://www.udemy.com/course/flutter-ios-android-fernando-herrera/) , SECCION #11**
 
-This project is a starting point for a Flutter application.
+# Demo
 
-A few resources to get you started if this is your first Flutter project:
+![img](/assets/repo/gif.gif)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Caracteristicas:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Guardar y leer en el storage
+- Implementacion de Singleton para aumentar la eficiencia
+- Uso de Drawer
+
+## Librerias
+- shared_preferences
+- provider
+
+## Copyright
+**Todos los Derechos Reservados 2025**
+**[ReyAcido](https://github.com/xkoderx)** ©️
